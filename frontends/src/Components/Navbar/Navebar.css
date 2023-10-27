@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: while;
+    color: blue;
+    padding: 25px 20px;
+    border-bottom: 2px solid black;
+    
+  }
+  .navbar-left{
+    display: flex;
+    gap: 6vh;
+  }
+  
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+  }
+  
+  .navbar-logo .navbar-img {
+    max-width: 100px;
+  }
+  
+
+  
