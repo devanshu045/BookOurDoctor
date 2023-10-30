@@ -1,0 +1,42 @@
+/* YourComponent.css */
+.facility-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .facility-cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .facility-cart:hover {
+    transform: scale(1.1);
+  }
+  
+  .facilities-1 {
+    background-color: #ff9999;
+  }
+  
+  .facilities-2 {
+    background-color: #99ff99;
+  }
+  
+  .facilities-3 {
+    background-color: #9999ff;
+  }
+  
+  .facilities-4 {
+    background-color: #ffff99;
+  }
+  
+  .facilities-5 {
+    background-color: #99ffff;
+  }
+  
+  /* Add more styling as needed */
+  
