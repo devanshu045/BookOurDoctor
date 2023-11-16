@@ -12,7 +12,7 @@ function App() {
      <Route path="/" element = {<Indexlandingpage/>} />
      <Route path="/FindDoctor" element = {<IndexFinddoctor/>} />
    </Routes>
-   {/* <Indexlandingpage/> */}
+   <Indexlandingpage/>
   </>
   );
 }
