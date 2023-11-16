@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40vh;
+    border: 2px solid black;
+    margin: 100px;
+
   }
   
   .facility-cart {
@@ -11,6 +15,7 @@
     width: 200px;
     text-align: center;
     cursor: pointer;
+    height: 80%;
     transition: transform 0.2s;
   }
   

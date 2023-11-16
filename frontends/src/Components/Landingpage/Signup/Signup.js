@@ -22,7 +22,7 @@ const Signup = () => {
         <button className='signup-btn'>Click Me</button>
       </div>
       <div className="right-section">
-        <img className='signup-img-dr' src="image.png" alt="Image" />
+        <img className='signup-img-dr' src="src\photo\drs-photo.png" />
       </div>
     </div>
   )

@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    border: 2px solid black;
+    height: 40vh;
+    /* border: 2px solid black; */
   }
   
   .search-box {

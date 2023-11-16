@@ -9,11 +9,11 @@ const Navebar = () => {
          <img className='navbar-img' src="logo.png" alt="Logo" />
        </div>
        <div className="navbar-left">
-         <button to="/">Home</button>
-         <button to="/about">About</button>
-         <button to="/services">Services</button>
-         <button to="/portfolio">Portfolio</button>
-         <button to="/contact">Contact</button>
+         <Link to="/">Home</Link>
+         <Link to="/FindDoctor">Find Doctor</Link>
+         <Link to="/services">Services</Link>
+         <Link to="/portfolio">Portfolio</Link>
+         <Link to="/contact">Contact</Link>
        </div>
        <div className="navbar-right">
          <button to="/login">Login</button>

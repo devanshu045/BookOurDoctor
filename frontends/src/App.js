@@ -1,27 +1,18 @@
 import './App.css';
-import Fastbook from './Components/Fastbook/Fastbook';
-import Navebar from './Components/Navbar/Navebar';
-import Searchsection from './Components/Searchdr/Searchsection';
-import Signup from './Components/Signup/Signup';
-import Faclities from './Components/Facilites/Facilities'
-import Articelsection from './Components/Articles/Articelsection';
-import Reviewsection from './Components/ReviewDownload/Reviewsection';
-import Footer from './Components/Footer/Footer';
+import IndexFinddoctor from './Components/Finddoctor/IndexFinddoctor';
+import Indexlandingpage from './Components/Landingpage/Indexlandingpage';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
   //  Jai Shree Ram Ram
   <>
    {/* Jai shree Ram */}
-       
-  <Navebar/>
-  <Searchsection/>
-  <Signup/>
-  <Fastbook/>
-  <Faclities/>
-  <Articelsection/> 
-  <Reviewsection/>
-  <Footer/>
+   <Routes>
+     <Route path="/" element = {<Indexlandingpage/>} />
+     <Route path="/FindDoctor" element = {<IndexFinddoctor/>} />
+   </Routes>
+   {/* <Indexlandingpage/> */}
   </>
   );
 }

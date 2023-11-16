@@ -1,11 +1,12 @@
 /* Style the main footer container */
 .footer-section {
-    background-color: #333;
+    background-color: rgb(80, 80, 247);
     color: #fff;
     padding: 20px 0;
-    height: 30vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
+
   }
   
   /* Style the "About" section */
