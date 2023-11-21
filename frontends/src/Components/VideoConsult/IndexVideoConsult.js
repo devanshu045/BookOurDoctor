@@ -5,6 +5,8 @@ import Navebar from '../Commancomponets/Navbar/Navebar'
 const IndexVideoConsult = () => {
   return (
     <div>
+      Jai shree ram 
+    
         <Navebar/>
         <BookVideocall/>
     </div>
