@@ -1,0 +1,75 @@
+
+  .Book-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .Book-left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  /* Style the headings */
+  .Book-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the rates */
+  .Book-rates {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the Doctor images and count */
+  .Book-Dr-images {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the Doctor images */
+  .Book-Dr-images img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  /* Style the online doctor count */
+  .Book-Dr-images p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the Consult Now button */
+  .Book-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Change button background color on hover */
+  .Book-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style the right side of the container */
+  .Book-right {
+    flex: 1;
+  }
+  
+  /* Style the right image */
+  .Book-right-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

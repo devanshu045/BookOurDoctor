@@ -11,7 +11,7 @@ const Navebar = () => {
        <div className="navbar-left">
          <Link to="/">Home</Link>
          <Link to="/FindDoctor">Find Doctor</Link>
-         <Link to="/services">Services</Link>
+         <Link to="/VideoCall">Video Call</Link>
          <Link to="/portfolio">Portfolio</Link>
          <Link to="/contact">Contact</Link>
        </div>
